@@ -1,0 +1,28 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3A4E48;
+    color: #FFFFFF
+}
+
+.container {
+    width: 80%; /* makes all content take up 80% no matter how wide the page is */
+    margin: 0 auto; /* removes top and bottom margins, left/right margins automatically determined */
+}
+
+header {  background-color:#0E4658;
+    padding: 5px 5px 0 0;
+
+}
+
+article {
+    width: 48%; /* margin of 1% on both sides means that each can only be 48% wide */
+    float: left;
+    margin: 1%;
+}
+
+article img {
+    max-width: 100%;
+}
+
